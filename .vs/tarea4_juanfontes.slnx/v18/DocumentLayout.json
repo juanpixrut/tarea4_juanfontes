@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\views\\registro\\esperando.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:views\\registro\\esperando.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\views\\registro\\bienvenido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:views\\registro\\bienvenido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\views\\registro\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:views\\registro\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\hubs\\verificacionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:hubs\\verificacionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\tarea4_juanfontes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:tarea4_juanfontes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\services\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:services\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:models\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|d:\\desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\models\\registroinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD32FE5-D077-48BF-ACBB-A865FC0B5008}|tarea4_juanfontes.csproj|solutionrelative:models\\registroinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bienvenido.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Bienvenido.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registro\\Bienvenido.cshtml",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Bienvenido.cshtml",
+              "RelativeToolTip": "Views\\Registro\\Bienvenido.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T01:00:07.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Confirmar.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Confirmar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registro\\Confirmar.cshtml",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Confirmar.cshtml",
+              "RelativeToolTip": "Views\\Registro\\Confirmar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T00:59:38.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Esperando.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Esperando.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registro\\Esperando.cshtml",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Esperando.cshtml",
+              "RelativeToolTip": "Views\\Registro\\Esperando.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T00:57:33.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registro\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Views\\Registro\\Index.cshtml",
+              "RelativeToolTip": "Views\\Registro\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T00:55:23.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistroController.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "Controllers\\RegistroController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAxwEgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:52:47.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:51:08.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerificacionHub.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Hubs\\VerificacionHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\VerificacionHub.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Hubs\\VerificacionHub.cs",
+              "RelativeToolTip": "Hubs\\VerificacionHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:46:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroService.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Services\\RegistroService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistroService.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Services\\RegistroService.cs",
+              "RelativeToolTip": "Services\\RegistroService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywC4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:42:21.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tarea4_juanfontes",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\tarea4_juanfontes.csproj",
+              "RelativeDocumentMoniker": "tarea4_juanfontes.csproj",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\tarea4_juanfontes.csproj",
+              "RelativeToolTip": "tarea4_juanfontes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T00:41:55.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Models\\Registro.cs",
+              "RelativeDocumentMoniker": "Models\\Registro.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Models\\Registro.cs",
+              "RelativeToolTip": "Models\\Registro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:41:20.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistroInput.cs",
+              "DocumentMoniker": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Models\\RegistroInput.cs",
+              "RelativeDocumentMoniker": "Models\\RegistroInput.cs",
+              "ToolTip": "D:\\Desktop\\ultimas_tareas\\tarea4\\tarea4_juanfontes\\Models\\RegistroInput.cs",
+              "RelativeToolTip": "Models\\RegistroInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T00:40:36.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

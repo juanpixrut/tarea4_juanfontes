@@ -1,0 +1,153 @@
+﻿@model tarea4_juanfontes.Models.Registro
+
+@{
+    ViewData["Title"] = "Esperando verificación";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-7">
+
+            <div class="card shadow">
+
+                <div class="card-body text-center p-5">
+
+                    <h2>Verificación pendiente</h2>
+
+                    <p class="mt-3">
+                        Hola, <strong>@Model.Nombre</strong>.
+                    </p>
+
+                    <p>
+                        Se simuló el envío de un correo a:
+                    </p>
+
+                    <p class="fw-bold">
+                        @Model.Email
+                    </p>
+
+                    <div class="spinner-border text-primary my-4"
+                         role="status">
+                    </div>
+
+                    <h5 id="estado">
+                        Esperando confirmación...
+                    </h5>
+
+                    <hr />
+
+                    <p>
+                        Para simular la verificación,
+                        abra este enlace en otra pestaña:
+                    </p>
+
+                    <a asp-controller="Registro"
+                       asp-action="Confirmar"
+                       asp-route-token="@Model.Token"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-success">
+                        Verificar correo
+                    </a>
+
+                    <p class="text-muted mt-4">
+                        Esta página se actualizará
+                        automáticamente cuando se confirme
+                        el correo.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
+<script>
+    const registroId = @Html.Raw(
+                System.Text.Json.JsonSerializer.Serialize(Model.Id)
+        );
+
+    const destino = @Html.Raw(
+                System.Text.Json.JsonSerializer.Serialize(
+                        Url.Action("Bienvenido", "Registro",
+                                new { id = Model.Id })
+                )
+        );
+
+    const conexion = new signalR.HubConnectionBuilder()
+        .withUrl("/verificacionHub")
+        .withAutomaticReconnect()
+        .build();
+
+    let redirigiendo = false;
+
+    function irABienvenida() {
+        if (redirigiendo) return;
+
+        redirigiendo = true;
+
+        document.getElementById("estado")
+            .innerText = "Correo verificado correctamente";
+
+        window.location.href = destino;
+    }
+
+    conexion.on("EmailVerificado", function () {
+        irABienvenida();
+    });
+
+    async function conectar() {
+        try {
+            await conexion.start();
+
+            const verificado = await conexion.invoke(
+                "UnirseAVerificacion",
+                registroId
+            );
+
+            if (verificado) {
+                irABienvenida();
+            } else {
+                document.getElementById("estado")
+                    .innerText = "Esperando confirmación...";
+            }
+
+        } catch (error) {
+            console.error("Error de SignalR:", error);
+
+            document.getElementById("estado")
+                .innerText =
+                "No se pudo conectar. Recargue la página para intentar nuevamente.";
+        }
+    }
+
+    conexion.onreconnecting(function () {
+        document.getElementById("estado")
+            .innerText = "Reconectando...";
+    });
+
+    conexion.onreconnected(async function () {
+        try {
+            const verificado = await conexion.invoke(
+                "UnirseAVerificacion",
+                registroId
+            );
+
+            if (verificado) {
+                irABienvenida();
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    });
+
+    conectar();
+</script>
